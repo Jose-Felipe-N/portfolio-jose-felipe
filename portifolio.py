@@ -25,7 +25,7 @@ if pagina_selecionada == "Sobre Mim":
         """)
         
     with col2:
-        st.image("c:\Users\Felipe\Desktop\IMG_4658.jpg", use_column_width=True)
+        st.image("IMG_4663.jpg", use_column_width=True)
         
         st.info("""
         **🛠️ Principais Habilidades:**
