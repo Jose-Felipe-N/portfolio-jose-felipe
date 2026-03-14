@@ -15,7 +15,7 @@ if pagina_selecionada == "Sobre Mim":
     col1, col2 = st.columns([2, 1])
     
     with col1:
-        st.image("IMG_4663.jpg", use_column_width=True)
+        st.image("IMG_4663.jpg", use_column_width=200)
         
         st.info("""
         **🛠️ Principais Habilidades:**
