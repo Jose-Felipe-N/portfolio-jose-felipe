@@ -12,8 +12,6 @@ if pagina_selecionada == "Sobre Mim":
     st.title("Olá, eu sou José Felipe!")
     st.subheader("Estudante de Ciência da Computação e Ciência e Tecnologia na UFABC")
     st.divider()
-    
-    # Criando duas colunas: a primeira (col1) um pouco mais larga que a segunda (col2)
     col1, col2 = st.columns([2, 1])
     
     with col1:
@@ -29,7 +27,6 @@ if pagina_selecionada == "Sobre Mim":
     with col2:
         st.image("c:\Users\Felipe\Desktop\IMG_4658.jpg", use_column_width=True)
         
-        # Uma caixinha com suas principais skills para preencher o espaço de forma elegante
         st.info("""
         **🛠️ Principais Habilidades:**
         * Python
