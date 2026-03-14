@@ -42,11 +42,13 @@ elif pagina_selecionada == "Projetos":
 
     st.write("**Principais Funcionalidades:**")
     st.markdown("""
--       **Autenticação de Usuários:** Sistema de login e cadastro com armazenamento local em JSON.
--       **Cálculo de Reserva de Emergência:** Algoritmo que calcula a meta de segurança financeira e o progresso do usuário.
--       **Motor de Recomendação:** Classificação inteligente do perfil de investimento baseada em 6 variáveis financeiras (idade, renda, capital, etc.).
--       **Geração de Relatórios:** Download de recibos dinâmicos em `.txt` com o diagnóstico.
-        """)
+**Principais Funcionalidades:**
+
+* **Autenticação de Usuários:** Sistema de login e cadastro com armazenamento local em JSON.
+* **Cálculo de Reserva de Emergência:** Algoritmo que calcula a meta de segurança financeira e o progresso do usuário.
+* **Motor de Recomendação:** Classificação inteligente do perfil de investimento baseada em 6 variáveis financeiras (idade, renda, capital, etc.).
+* **Geração de Relatórios:** Download de recibos dinâmicos em `.txt` com o diagnóstico.
+""")
 
     st.write("**Tecnologias:** Python, Streamlit, JSON.")
 
