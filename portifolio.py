@@ -12,10 +12,10 @@ if pagina_selecionada == "Sobre Mim":
     st.title("Olá, eu sou José Felipe!")
     st.subheader("Estudante de Ciência da Computação e Ciência e Tecnologia na UFABC")
     st.divider()
-    col1, col2 = st.columns([1, 2])
+    col1, col2 = st.columns([1, 3.5])
     
     with col1:
-        st.image("IMG_4658.jpg", use_column_width=300)
+        st.image("IMG_4658.jpg", use_column_width=120)
         
         st.info("""
         **🛠️ Principais Habilidades:**
