@@ -56,7 +56,7 @@ elif pagina_selecionada == "Contato":
     
     st.divider()
     
-    col1, col2, col3, col4 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
     
     with col1:
         st.subheader("Profissional")
