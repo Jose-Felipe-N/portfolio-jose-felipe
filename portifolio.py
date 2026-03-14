@@ -15,16 +15,6 @@ if pagina_selecionada == "Sobre Mim":
     col1, col2 = st.columns([2, 1])
     
     with col1:
-        st.write("""
-        Tenho uma base forte em ciências exatas, com grande interesse nas intersecções entre matemática, 
-        física e tecnologia. Atualmente, meu foco principal de desenvolvimento é em Python, linguagem que 
-        utilizo para transformar lógicas complexas em soluções reais e eficientes. 
-        
-        Gosto de desafios que exigem pensamento analítico e estou sempre em busca de aprender novas 
-        formas de otimizar sistemas e processos.
-        """)
-        
-    with col2:
         st.image("IMG_4663.jpg", use_column_width=True)
         
         st.info("""
@@ -34,7 +24,17 @@ if pagina_selecionada == "Sobre Mim":
         * Lógica de Programação
         * Raciocínio Matemático
         """)
-
+        
+    with col2:
+        st.write("""
+        Tenho uma base forte em ciências exatas, com grande interesse nas intersecções entre matemática, 
+        física e tecnologia. Atualmente, meu foco principal de desenvolvimento é em Python, linguagem que 
+        utilizo para transformar lógicas complexas em soluções reais e eficientes. 
+        
+        Gosto de desafios que exigem pensamento analítico e estou sempre em busca de aprender novas 
+        formas de otimizar sistemas e processos.
+        """)
+        
 elif pagina_selecionada == "Projetos":
     st.title("Meus Projetos")
     st.subheader("Projeto 1: 📊 Sistema de Triagem Financeira")
