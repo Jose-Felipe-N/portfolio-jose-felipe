@@ -18,4 +18,6 @@ O portfólio é dividido em três seções principais:
 ## 💻 Como executar localmente
 1. Clone este repositório:
 ```bash
-git clone [https://github.com/SEU-USUARIO/NOME-DO-REPO-PORTFOLIO.git](https://github.com/SEU-USUARIO/NOME-DO-REPO-PORTFOLIO.git)
+git clone https://github.com/Jose-Felipe-N/portfolio-jose-felipe.git
+pip install streamlit
+streamlit run app.py
