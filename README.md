@@ -20,4 +20,4 @@ O portfólio é dividido em três seções principais:
 ```bash
 git clone https://github.com/Jose-Felipe-N/portfolio-jose-felipe.git
 pip install streamlit
-streamlit run app.py
+streamlit run portifolio.py
