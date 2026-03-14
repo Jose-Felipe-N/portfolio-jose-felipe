@@ -71,7 +71,7 @@ elif pagina_selecionada == "Contato":
     with col3:
         st.subheader("E-mail")
         st.markdown("[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=contato.josefelipe.dev@gmail.com)")
-        st.caption("Email: contato.josefelipe.dev@gmail.com")
+        st.caption("contato.josefelipe.dev@gmail.com")
     with col4:
         st.subheader("Telefone")
         st.markdown("[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5511997902696)")
