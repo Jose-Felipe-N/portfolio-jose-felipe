@@ -12,18 +12,11 @@ if pagina_selecionada == "Sobre Mim":
     st.title("Olá, eu sou José Felipe!")
     st.subheader("Estudante de Ciência da Computação e Ciência e Tecnologia na UFABC")
     st.divider()
-    col1, col2 = st.columns([1, 3.5])
+    col1, col2 = st.columns([1.11, 3.5])
     
     with col1:
-        st.image("IMG_4658.jpg", use_column_width=120)
+        st.image("IMG_4658.jpg", width=400)
         
-        st.info("""
-        **🛠️ Principais Habilidades:**
-        * Python
-        * Streamlit
-        * Lógica de Programação
-        * Raciocínio Matemático
-        """)
         
     with col2:
         st.write("""
@@ -33,6 +26,14 @@ if pagina_selecionada == "Sobre Mim":
         
         Gosto de desafios que exigem pensamento analítico e estou sempre em busca de aprender novas 
         formas de otimizar sistemas e processos.
+        """)
+
+        st.info("""
+        **🛠️ Principais Habilidades:**
+        * Python
+        * Streamlit
+        * Lógica de Programação
+        * Raciocínio Matemático
         """)
         
 elif pagina_selecionada == "Projetos":
@@ -51,6 +52,12 @@ elif pagina_selecionada == "Projetos":
 """)
 
     st.write("**Tecnologias:** Python, Streamlit, JSON.")
+
+    st.write("**Links:")
+    st.markdown("""
+                * **GitHub:** [Sistema de Triagem Financeira](https://github.com/Jose-Felipe-N/Sistema-de-Triagem-Financeira)
+                * **Site:** [Sistema de Triagem Financeira](https://sistema-triagem-financeira-ag5uvayg5b4movxwqnvjr.streamlit.app/)""")
+
 
 elif pagina_selecionada == "Contato":
     st.title("Entre em Contato")
@@ -79,5 +86,3 @@ elif pagina_selecionada == "Contato":
 
     st.divider()
     st.write("Você também pode me encontrar pelos corredores da UFABC! 🎓")
-    
-    
